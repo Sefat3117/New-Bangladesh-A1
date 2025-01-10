@@ -1,5 +1,120 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+}
 /* Google Font Style */
 body {
   font-family: "Fira Sans", serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #f1f1f3;
+}
+/* nav styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 0;
+}
+nav > h3 {
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+nav > button {
+  color: #006a50;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 8px;
+  border: 1px solid #006a50;
+  padding: 15px 30px;
+}
+/* Banner Part Styles */
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 24px;
+  background: #c6e4d6;
+  padding: 80px 100px;
+  margin-bottom: 80px;
+}
+.banner-title {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: "Fira Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.banner-description {
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.banner-btn {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding: 17px 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  border-radius: 8px;
+  background: #006a50;
+  border: none;
+}
+/* Vision of Future Section Styles */
+.future-section-title {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.future-section-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.future-section-card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  column-gap: 24px;
+}
+.future-section-card-one,
+.future-section-card-two,
+.future-section-card-three {
+  height: 325px;
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+  border-radius: 16px;
+  border: 0px solid #5490f5;
+  background: rgba(84, 144, 245, 0.2);
+}
+.future-section-card-two {
+  background-color: #09a15c;
+}
+.future-section-card-three {
+  background-color: #f7ebcf;
 }
