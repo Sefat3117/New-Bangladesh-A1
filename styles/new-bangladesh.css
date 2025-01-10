@@ -333,3 +333,61 @@ nav > button {
   background: #006a50;
   margin: 32px auto 80px auto;
 }
+/* Newsletter Section Styles */
+.newsletter-container-section {
+  display: flex;
+  padding: 80px 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  border-radius: 24px;
+  background: #c6e4d6;
+}
+.newsletter-container h3 {
+  color: #0e0e0e;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.newsletter-container p {
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.input-subs-container {
+  display: flex;
+  margin-bottom: 24px;
+}
+.newsletter-container input {
+  display: flex;
+  width: 600px;
+  padding: 18px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px 0px 0px 8px;
+  border: none;
+  background: #fff;
+}
+.subscribe-btn {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding: 17px 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+  background: #006a50;
+}
