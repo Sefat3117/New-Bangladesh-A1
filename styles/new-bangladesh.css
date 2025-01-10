@@ -95,7 +95,7 @@ nav > button {
 .future-section-card-container {
   display: flex;
   justify-content: space-between;
-  margin-top: 32px;
+  margin: 32px 0;
   column-gap: 24px;
 }
 .future-section-card-one,
@@ -106,15 +106,77 @@ nav > button {
   padding: 32px;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: space-around;
   gap: 24px;
-  flex: 1 0 0;
   border-radius: 16px;
   border: 0px solid #5490f5;
   background: rgba(84, 144, 245, 0.2);
 }
 .future-section-card-two {
-  background-color: #09a15c;
+  border: 0px solid #09a15c;
+  background: #c6e4d6;
 }
 .future-section-card-three {
-  background-color: #f7ebcf;
+  border: 0px solid #ffc239;
+  background: #f7ebcf;
+}
+.card-btn-one,
+.card-btn-two,
+.card-btn-three {
+  display: flex;
+  padding: 11px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  border-radius: 8px;
+  background-color: #5490f5;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.card-btn-two {
+  background-color: #09a15c;
+}
+.card-btn-three {
+  background-color: #ffc239;
+}
+/* Quote Section Styles */
+.quote-section-container {
+  display: flex;
+  padding: 48px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 25px 23px;
+  margin-bottom: 80px;
+}
+.quote-section-description {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.quote-section-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 120% */
+}
+.quote-section-person {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
