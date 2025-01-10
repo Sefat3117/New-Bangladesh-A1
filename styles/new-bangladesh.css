@@ -122,7 +122,8 @@ nav > button {
 }
 .card-btn-one,
 .card-btn-two,
-.card-btn-three {
+.card-btn-three,
+.recent-news-btn {
   display: flex;
   padding: 11px 20px;
   justify-content: center;
@@ -179,4 +180,70 @@ nav > button {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+}
+/* Recent News Section Styles */
+.recent-news-container > h3 {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.recent-news-container > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+.recent-news-one,
+.recent-news-two {
+  display: flex;
+  padding: 48px;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+  margin-bottom: 24px;
+  border-radius: 24px;
+  background: #fff;
+}
+.recent-news-two {
+  flex-direction: row-reverse;
+}
+.recent-news-one h3,
+.recent-news-two h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.recent-news-primary-img {
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+.recent-news-small-img {
+  width: 134px;
+  height: 40px;
+}
+.recent-news-time {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+.recent-news-time p,
+.recent-news-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin: 6px 0;
+}
+.recent-news-btn {
+  background-color: #006a50;
 }
