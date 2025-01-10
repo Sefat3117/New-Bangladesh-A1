@@ -391,3 +391,34 @@ nav > button {
   border: none;
   background: #006a50;
 }
+/* Footer Section Style */
+footer {
+  height: 226px;
+  display: flex;
+  padding: 50px 160px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+  background: #fff;
+  margin-top: 80px;
+}
+footer h3 {
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 23px;
+}
+.footer-img-container img {
+  width: 24px;
+  height: 24px;
+}
