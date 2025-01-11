@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
 }
@@ -18,7 +17,6 @@ nav {
 }
 nav > h3 {
   color: #0e0e0e;
-  font-family: "Fira Sans";
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -26,7 +24,6 @@ nav > h3 {
 }
 nav > button {
   color: #006a50;
-  font-family: "Fira Sans";
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -47,7 +44,6 @@ nav > button {
 }
 .banner-title {
   color: rgba(14, 14, 14, 0.5);
-  font-family: "Fira Sans";
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -55,11 +51,11 @@ nav > button {
 }
 .banner-description {
   color: #0e0e0e;
-  font-family: "Fira Sans";
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin: 16px 0 24px 0;
 }
 .banner-btn {
   color: #fff;
@@ -86,7 +82,6 @@ nav > button {
 }
 .future-section-description {
   color: rgba(14, 14, 14, 0.7);
-  font-family: "Fira Sans";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -438,6 +433,10 @@ footer h3 {
 .donate-btn:hover,
 .subscribe-btn:hover {
   background-color: rgba(255, 0, 0, 0.671);
+}
+.sign-in:hover {
+  color: #f7ebcf;
+  background-color: #006a50;
 }
 /* Hover effect on donate amount section */
 .donate-amount:hover,
