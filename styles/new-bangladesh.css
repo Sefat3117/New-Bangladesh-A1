@@ -422,3 +422,18 @@ footer h3 {
   width: 24px;
   height: 24px;
 }
+/* Hover effect on button */
+.banner-btn:hover,
+.card-btn-one:hover,
+.card-btn-two:hover,
+.card-btn-three:hover,
+.recent-news-btn:hover,
+.donate-btn:hover,
+.subscribe-btn:hover {
+  background-color: rgba(255, 0, 0, 0.671);
+}
+/* Hover effect on donate amount section */
+.donate-amount:hover,
+.donate-amount-with-color:hover {
+  background-color: #09a15c;
+}
